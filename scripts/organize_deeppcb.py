@@ -1,6 +1,6 @@
 """
 Organize DeepPCB Dataset for Binary Classification
-Author: [Your Name]
+Author: SAI KATARI
 
 Handles deeply nested folder structure of DeepPCB dataset.
 """
