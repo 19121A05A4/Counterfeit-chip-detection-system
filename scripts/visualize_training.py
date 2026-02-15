@@ -1,6 +1,6 @@
 """
 Training Visualization
-Author: [Your Name]
+Author: SAI KATARI
 
 Plot training curves after training completes.
 """
