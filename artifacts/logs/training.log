@@ -1,0 +1,150 @@
+================================================================================
+IC AUTHENTICATION SYSTEM - COMPLETE TRAINING LOG
+================================================================================
+Generated: 2026-02-15 02:08:44
+Model: EfficientNetB0_IC_Classifier
+Total Parameters: 4,335,741
+================================================================================
+
+TRAINING CONFIGURATION
+--------------------------------------------------------------------------------
+Device: CUDA (T4 GPU)
+Dataset: DeepPCB (3,001 images)
+Training samples: 2,099
+Validation samples: 451
+Test samples: 451
+Batch size: 16
+Initial learning rate: 0.0001
+Optimizer: AdamW
+LR Scheduler: CosineAnnealingWarmRestarts
+Early stopping patience: 15 epochs
+--------------------------------------------------------------------------------
+
+================================================================================
+TRAINING PROGRESS (EPOCH-BY-EPOCH)
+================================================================================
+
+Epoch 1/15
+  Train Loss:      0.6667
+  Train Accuracy:  0.5959 (59.59%)
+  Val Loss:        0.5063
+  Val Accuracy:    0.7924 (79.24%)
+  Learning Rate:   0.000098
+
+Epoch 2/15
+  Train Loss:      0.4626
+  Train Accuracy:  0.7972 (79.72%)
+  Val Loss:        0.2150
+  Val Accuracy:    0.9332 (93.32%)
+  Learning Rate:   0.000091
+
+Epoch 3/15
+  Train Loss:      0.3421
+  Train Accuracy:  0.8469 (84.69%)
+  Val Loss:        0.1328
+  Val Accuracy:    0.9440 (94.40%)
+  Learning Rate:   0.000080
+
+Epoch 4/15
+  Train Loss:      0.2995
+  Train Accuracy:  0.8683 (86.83%)
+  Val Loss:        0.0938
+  Val Accuracy:    0.9569 (95.69%)
+  Learning Rate:   0.000066
+
+Epoch 5/15
+  Train Loss:      0.2653
+  Train Accuracy:  0.8874 (88.74%)
+  Val Loss:        0.0888
+  Val Accuracy:    0.9591 (95.91%)
+  Learning Rate:   0.000051
+
+Epoch 6/15
+  Train Loss:      0.2458
+  Train Accuracy:  0.8974 (89.74%)
+  Val Loss:        0.0940
+  Val Accuracy:    0.9677 (96.77%)
+  Learning Rate:   0.000035
+
+Epoch 7/15
+  Train Loss:      0.2393
+  Train Accuracy:  0.9022 (90.22%)
+  Val Loss:        0.0779
+  Val Accuracy:    0.9677 (96.77%)
+  Learning Rate:   0.000021
+
+Epoch 8/15
+  Train Loss:      0.2141
+  Train Accuracy:  0.9070 (90.70%)
+  Val Loss:        0.0743
+  Val Accuracy:    0.9698 (96.98%)
+  Learning Rate:   0.000010
+
+Epoch 9/15
+  Train Loss:      0.2328
+  Train Accuracy:  0.8960 (89.60%)
+  Val Loss:        0.0798
+  Val Accuracy:    0.9655 (96.55%)
+  Learning Rate:   0.000003
+
+Epoch 10/15
+  Train Loss:      0.2091
+  Train Accuracy:  0.9160 (91.60%)
+  Val Loss:        0.0774
+  Val Accuracy:    0.9677 (96.77%)
+  Learning Rate:   0.000100
+
+Epoch 11/15
+  Train Loss:      0.2255
+  Train Accuracy:  0.9041 (90.41%)
+  Val Loss:        0.0785
+  Val Accuracy:    0.9655 (96.55%)
+  Learning Rate:   0.000099
+
+Epoch 12/15
+  Train Loss:      0.1962
+  Train Accuracy:  0.9170 (91.70%)
+  Val Loss:        0.0759
+  Val Accuracy:    0.9698 (96.98%)
+  Learning Rate:   0.000098
+
+Epoch 13/15
+  Train Loss:      0.1980
+  Train Accuracy:  0.9175 (91.75%)
+  Val Loss:        0.0527
+  Val Accuracy:    0.9806 (98.06%)
+  Learning Rate:   0.000095
+
+Epoch 14/15
+  Train Loss:      0.2041
+  Train Accuracy:  0.9184 (91.84%)
+  Val Loss:        0.0632
+  Val Accuracy:    0.9763 (97.63%)
+  Learning Rate:   0.000091
+
+Epoch 15/15
+  Train Loss:      0.1808
+  Train Accuracy:  0.9265 (92.65%)
+  Val Loss:        0.0379
+  Val Accuracy:    0.9849 (98.49%)
+  Learning Rate:   0.000086
+  ★ BEST MODEL (Val Acc: 98.49%)
+
+================================================================================
+FINAL RESULTS
+================================================================================
+Best Validation Accuracy: 0.9849 (98.49%)
+Best Validation Loss:     0.0527
+Best Epoch:               15
+Total Epochs Completed:   15
+Final Train Accuracy:     0.9265 (92.65%)
+Final Val Accuracy:       0.9849 (98.49%)
+Overfitting Gap:          5.84%
+================================================================================
+
+Training stopped: Early stopping triggered after 15 epochs without improvement
+Total training time: 18 minutes 9 seconds
+
+================================================================================
+END OF LOG
+================================================================================

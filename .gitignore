@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+dataset/raw/*
+dataset/processed/*
+artifacts/checkpoints/*.pth
+kaggle.json

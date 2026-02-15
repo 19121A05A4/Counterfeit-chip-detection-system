@@ -1,0 +1,7 @@
+{
+  "model_architecture": "efficientnet",
+  "final_train_accuracy": 0.958969465648855,
+  "final_val_accuracy": 0.9827586206896551,
+  "best_val_accuracy": 0.9849137931034483,
+  "total_epochs": 30
+}

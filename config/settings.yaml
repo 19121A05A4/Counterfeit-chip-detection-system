@@ -1,0 +1,30 @@
+project_metadata:
+  name: "hardware_authentication_system"
+  version: "1.0.0"
+  author: "Your Name"
+
+data_configuration:
+  source_platform: "kaggle"
+  raw_images_path: "dataset/raw"
+  
+  image_specifications:
+    target_dimension: 224
+  
+  partitioning:
+    train_fraction: 0.70
+    validation_fraction: 0.15
+    test_fraction: 0.15
+
+augmentation_strategy:
+  enabled: true
+  samples_per_image: 8
+
+network_training:
+  model_architecture: "efficientnet"
+  use_imagenet_weights: true
+  
+  optimization_params:
+    learning_rate: 0.0001
+    samples_per_batch: 16
+    maximum_epochs: 100
+    l2_regularization: 0.0001
