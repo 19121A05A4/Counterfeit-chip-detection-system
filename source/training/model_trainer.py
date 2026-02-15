@@ -1,6 +1,6 @@
 """
 Model Training Orchestrator for IC Authentication
-Author: [Your Name]
+Author: SAI KATARI
 Date: February 2026
 
 My custom training loop designed specifically for small IC datasets.
