@@ -1,6 +1,6 @@
 """
 Neural Network Architectures for IC Authentication
-Author: [Your Name]
+Author: SAI KATARI
 
 My custom model implementations using transfer learning.
 Each architecture is optimized specifically for small IC datasets.
