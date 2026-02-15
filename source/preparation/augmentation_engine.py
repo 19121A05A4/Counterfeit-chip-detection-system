@@ -1,6 +1,6 @@
 """
 IC-Specific Augmentation Engine
-Author: [Your Name]
+Author: SAI KATARI
 
 My custom augmentation strategy designed for counterfeit IC detection.
 Unlike generic image augmentation, this simulates real-world chip inspection
