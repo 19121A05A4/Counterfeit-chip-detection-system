@@ -1,7 +1,7 @@
 project_metadata:
   name: "hardware_authentication_system"
   version: "1.0.0"
-  author: "Your Name"
+  author: "SAI KATARI"
 
 data_configuration:
   source_platform: "kaggle"
