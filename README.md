@@ -311,7 +311,3 @@ To reproduce the 98.49% result:
 ## License
 
 MIT License - See LICENSE file for details
-
----
-
-**Note:** This project is for educational and research purposes. The techniques demonstrated here are applicable to real counterfeit IC detection systems, but would require actual counterfeit IC datasets for deployment in production environments.
