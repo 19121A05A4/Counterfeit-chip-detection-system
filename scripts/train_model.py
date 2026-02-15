@@ -1,6 +1,6 @@
 """
 Main Training Script
-Author: [Your Name]
+Author: SAI KATARI
 
 Execute complete training pipeline for IC authentication models.
 """
