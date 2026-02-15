@@ -1,6 +1,6 @@
 """
 PyTorch Data Pipeline for IC Authentication
-Author: [Your Name]
+Author: SAI KATARI
 
 My custom PyTorch Dataset and DataLoader setup specifically
 optimized for small IC authentication datasets.
