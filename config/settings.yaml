@@ -4,7 +4,7 @@ project_metadata:
   author: "SAI KATARI"
 
 data_configuration:
-  source_platform: "kaggle"
+  source_platform: "github"
   raw_images_path: "dataset/raw"
   
   image_specifications:
