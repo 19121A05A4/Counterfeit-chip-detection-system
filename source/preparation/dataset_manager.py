@@ -1,6 +1,6 @@
 """
 Dataset Manager for Kaggle IC Datasets
-Author: [Your Name]
+Author: SAI KATARI
 Date: February 2026
 
 My custom approach to loading and organizing IC authentication datasets.
